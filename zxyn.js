@@ -595,28 +595,28 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Base Ori : Dika Ardnt*
-https://github.com/DikaArdnt
+                anu = `*Base Ori : Kanna Chan*
+https://github.com/XyzenzKannaV1
 
-*Recode By : ArullOfc*
-https://youtu.be/9OvUdX8Xuv0`
+*Recode By : Kanna Chan*
+https://youtu.be/Kanna Botz`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtu.be/Kanna Botz'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '©ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '©Sagiri Botz', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '©Sagiri Botz', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '©Sagiri Botz', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '©ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '©Sagiri Botz', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '©ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '©Sagiri Botz', global.thumb, btn)
                         }
                      }
             break
@@ -985,7 +985,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© Sagiri Botz',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -1026,7 +1026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: '© ZxynOfc',
+                footer: '© Sagiri Botz',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1068,7 +1068,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '© Sagiri Botz',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1244,12 +1244,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/Kanna Botz'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/KNuPWvGn3AG0srT3vdr0Ea'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1268,7 +1268,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(i, txt, '© ZxynOfc', global.thumb, btn)
+                      zxyn.send5ButImg(i, txt, '© Sagiri Botz', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1283,12 +1283,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/Kanna Botz'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/KNuPWvGn3AG0srT3vdr0Ea'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1307,7 +1307,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(yoi, txt, '© ArullOfc', global.thumb, btn)
+                      zxyn.send5ButImg(yoi, txt, '© Sagiri Botz', global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1635,7 +1635,7 @@ break
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: '© ArullOfc',
+                    footer: '© Sagiri Botz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1716,7 +1716,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: '© ZxynOfc',
+                    footer: '© Sagiri Botz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1734,7 +1734,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: '© ArullOfc',
+                    footer: '© Sagiri Botz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1752,7 +1752,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: '© ArullOfc',
+                    footer: '© Sagiri Botz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2272,7 +2272,7 @@ break
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: '© ArullOfc',
+			footer: '© Sagiri Botz',
 			buttons,
 			headerType: 4
 		    }
